@@ -1,0 +1,17 @@
+django >= 2.2.10, < 2.9
+
+djangorestframework
+django-recaptcha
+django-nested-inline
+django-debug-toolbar
+
+pillow
+openpyxl
+twilio
+
+wheel
+pytest
+pipupgrade
+autopep8
+pylint
+
