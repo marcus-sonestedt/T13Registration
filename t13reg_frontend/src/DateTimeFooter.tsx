@@ -1,13 +1,12 @@
-import React, { useState, useContext, useMemo, useCallback } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React, {  } from "react";
 
 function DateTimeFooter(props:any)
 {
     const now = new Date();
 
     return <p>
-             Datum: { now.toLocaleDateString() } - 
-             Tid: { now.toLocaleTimeString() }
+             Datum: { now.toLocaleDateString('sv-SE') } - 
+             Tid: { now.toLocaleTimeString('sv-SE') }
          </p>;
 }
 
