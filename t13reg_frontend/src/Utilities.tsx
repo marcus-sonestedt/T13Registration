@@ -8,7 +8,7 @@ interface Props
 
 // see https://reactjs.org/docs/error-boundaries.html
 export class ErrorBoundary extends React.Component<Props, { hasError: boolean, error: any }> {
-    constructor(props: any) {
+    constructor(props: { children:ReactNode }) {
         super(props);
         this.state = { hasError: false, error: null };
     }
